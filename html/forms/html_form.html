@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form</title>
+  </head>
+  <!-- style tag allows you to provide style the document interanlly-->
+  <style>
+    .container {
+      width: 50%;
+      margin: auto;
+      height: auto;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+   fieldset {
+    padding: 20px;
+    width: 30%;
+    margin: 0 auto;
+   }
+
+   input, label {
+    display: block;
+    margin-top: 10px;
+   }
+
+  </style>
+
+  <body>
+    <div class="container">
+      <h1>Creating A Form</h1>
+      <!-- The form tag is used to defeine a section of input elements that interact with the webpage.
+    The purpose of this tag is to create a container for those input elements and to specifiy which
+  data should be processed and submitted to the server-->
+      <form action="logged_in.html" method="get">
+        <!-- The fieldset is used to group related elements usually forms together and the legend element is used
+      to provide a caption for the fieldset 
+    -->
+        <fieldset>
+          <legend>Log in</legend>
+          <label for="username">Username: </label>
+          <input type="text" name="username" id="username" />
+
+          <label for="password">Password: </label>
+          <input type="password" name="password" id="pasword" />
+
+          <input type="submit" value="Login" />
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
