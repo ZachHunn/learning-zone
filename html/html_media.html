@@ -1,12 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML Media</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Media</title>
+  </head>
+  <body>
+    <div>
+      <h1>HTML Media Elements</h1>
+      <p>HTML has many different elements</p>
+      <div>
+        <h2>Image Tag</h2>
+        <p>The img tag is used to embed images into a web page</p>
+        <p>
+          You'll notice that the you don't have to wrap anything in the img tag.
+          That's becaause it is a self-closing tag, which means it does not
+          require a closing tag.
+        </p>
+        <p>
+          Most self closing tags use attributes to provide additional
+          information to modify the behavior of the element.
+        </p>
+        <h3>Attributes that img tags use</h3>
+        <dl>
+          <dt>src</dt>
+          <dd>
+            This attribute specifies the URL or location of the image to be
+            displayed. It can be a local file path or a URL.
+          </dd>
+          <dt>alt</dt>
+          <dd>
+            This specifies the alternate text that will be displayed in case the
+            image fails to load or the user is unable to see the image. This is
+            important for accessibility purposes.
+          </dd>
+          <dt>width</dt>
+          <dd>
+            This specifies the width of the image in pixels or as a percentage
+            of the parent element's width.
+          </dd>
+          <dt>height</dt>
+          <dd>
+            This specifices the height of the image in pixels or as a percentage
+            of the parent element's width.
+          </dd>
+        </dl>
+        <img
+          src="../public/code.jpg"
+          alt="HTML code"
+          width="500"
+          height="300"
+        />
+      </div>
+      <div>
+        <h2>Video Tag</h2>
+        <p>
+          The video tag is used to embed video content into an HTML document
+        </p>
+        <h3>Attributes used for video element</h3>
+        <ul>
+          <li>src - specifices the local file path or URL</li>
+          <li>contols - adds playback controls</li>
+          <li>loop - loops the video</li>
+          <li>muted - mutes the video</li>
+          <li>autoplay - auto plays the video</li>
+        </ul>
+        <p>
+          The content in between the video element is a fallbvack message that
+          displays if the broswer does not support the video tag
+        </p>
+        <video src="../public/matrix-47802.mp4" loop muted width="500" autoplay>
+          The Matrix
+        </video>
+      </div>
+      <div>
+        <h2>Auido Tag</h2>
+        <p>Audio tag is used to embed audio into an HTML Document</p>
+        <p>Audio tag share many of the same attributes as the video tag</p>
+      </div>
+      <div>
+        <h2>Source Tag</h2>
+        <p>
+          The source is used within the video or audio tags to specify
+          alternative video or auiso sources. It is used to provide different
+          formats and quaility levels of the media file for browser
+          compatibility. Multiple source tags can be used with the video or
+          audio element
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
