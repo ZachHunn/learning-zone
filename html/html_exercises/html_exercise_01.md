@@ -2,9 +2,9 @@
 
 Create a folder within the "exercise" directory named with your first name and the exercise number (e.g. "John-Exercise-1"). Within this folder, create an HTML file named "index.html". In this HTML file, create the following HTML structure:
 
-## Note - you'll see some tags that have not been covered like &lt;header&gt;, &lt;nav&gt;, &lt;section&gt; and &lt;footer&gt;. These are are semantic HTML elements. Semantic HTML elements that carry meaning and convey the purpose or stucture of the content they wrap. Semantic elements provide descriptive names that enhance the accessibility, maintainability, abd SEO (Search Engine Optimization) of a webpage.
+#### Note - You'll see some tags that have not been covered like &lt;header&gt;, &lt;nav&gt;, &lt;section&gt; and &lt;footer&gt;. These are are semantic HTML elements. Semantic HTML elements that carry meaning and convey the purpose or stucture of the content they wrap. Semantic elements provide descriptive names that enhance the accessibility, maintainability, abd SEO (Search Engine Optimization) of a webpage.
 
-### Common semantic HTML elements
+## Common semantic HTML elements
 
     <header>: Represents the introductory content or a container for a group of introductory content.
     <nav>: Defines a section of navigation links.
@@ -17,6 +17,8 @@ Create a folder within the "exercise" directory named with your first name and t
     <blockquote>: Indicates a section that contains quoted content from another source.
     <cite>: Represents the title of a work or a reference to a creative work.
     <time>: Represents a specific date, time, or duration.
+
+### Instructions
 
 1. Inside the HTML file, create a basic HTML structure using the appropriate tags, including the &lt;html&gt;, &lt;head&gt;, and &lt;body&gt; tags.
 2. Inside the &lt;head&gt; tag, add a &lt;title&gt; tag and give your page a title.
