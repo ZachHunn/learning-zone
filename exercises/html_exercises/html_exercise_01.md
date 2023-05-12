@@ -1,7 +1,6 @@
 # Exercise 1 - Learning the HTML Structure
 
-
-. In this HTML file, create the following HTML structure:
+Create a folder within the "exercise" directory named with your first name and the exercise number (e.g. "John-Exercise-1"). Within this folder, create an HTML file named "index.html". In this HTML file, create the following HTML structure:
 
 #### Note - You'll see some tags that have not been covered like &lt;header&gt;, &lt;nav&gt;, &lt;section&gt; and &lt;footer&gt;. These are are semantic HTML elements. Semantic HTML elements carry meaning and convey the purpose or stucture of the content they wrap. Semantic elements provide descriptive names that enhance the accessibility, maintainability, abd SEO (Search Engine Optimization) of a webpage.
 
