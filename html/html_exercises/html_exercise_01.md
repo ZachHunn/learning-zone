@@ -6,17 +6,17 @@ Create a folder within the "exercise" directory named with your first name and t
 
 ### Common semantic HTML elements
 
-    &lt;header&gt;: Represents the introductory content or a container for a group of introductory content.
-    &lt;nav&gt;: Defines a section of navigation links.
-    &lt;main&gt;: Represents the main content of a document.
-    &lt;article&gt;: Represents a self-contained composition that can be independently distributed or reused.
-    &lt;section&gt;: Defines a standalone section within a document.
-    &lt;aside&gt;: Represents content that is tangentially related to the main content.
-    &lt;footer&gt;: Represents the footer or closing section of a document or a section.
-    &lt;figure&gt; and &lt;figcaption&gt;: Used together to represent self-contained content, such as images or diagrams, with a descriptive caption.
-    &lt;blockquote&gt;: Indicates a section that contains quoted content from another source.
-    &lt;cite&gt;: Represents the title of a work or a reference to a creative work.
-    &lt;time&gt;: Represents a specific date, time, or duration.
+    <header>: Represents the introductory content or a container for a group of introductory content.
+    <nav>: Defines a section of navigation links.
+    <main>: Represents the main content of a document.
+    <article>: Represents a self-contained composition that can be independently distributed or reused.
+    <section>: Defines a standalone section within a document.
+    <aside>: Represents content that is tangentially related to the main content.
+    <footer>: Represents the footer or closing section of a document or a section.
+    <figure> and <figcaption>: Used together to represent self-contained content, such as images or diagrams, with a descriptive caption.
+    <blockquote>: Indicates a section that contains quoted content from another source.
+    <cite>: Represents the title of a work or a reference to a creative work.
+    <time>: Represents a specific date, time, or duration.
 
 1. Inside the HTML file, create a basic HTML structure using the appropriate tags, including the &lt;html&gt;, &lt;head&gt;, and &lt;body&gt; tags.
 2. Inside the &lt;head&gt; tag, add a &lt;title&gt; tag and give your page a title.
