@@ -2,13 +2,13 @@
 
 Create a folder within the "exercise" directory named with your first name and the exercise number (e.g. "John-Exercise-1"). Within this folder, create an HTML file named "index.html". In this HTML file, create the following HTML structure:
 
-## Note - you'll see some tags that have not been covered like <header>, <nav>, <section> and <footer>. These are are semantic HTML elemnts
+## Note - you'll see some tags that have not been covered like <code><header>, <nav>, <section> and <footer></code> . These are are semantic HTML elemnts
 The Header element is used to define the header section of the webpage
 The Nav element is used to define a section of a web page that contains navagation links. Usually located in the header
-The section element groups related content and is a more speific alternative to a <div>
+The section element groups related content and is a more speific alternative to a div
 The Footer element is used to define a footer for a docement. It usually contains information such as copyright notices, links to related documents, and contact information.
 
-1. Inside the HTML file, create a basic HTML structure using the appropriate tags, including the <html>, <head>, and <body> tags.
+1. Inside the HTML file, create a basic HTML structure using the appropriate tags, including the <html, <head>, and <body> tags.
 2. Inside the <head> tag, add a <title> tag and give your page a title.
 3. In the <body> tag, add a <header> tag and give it a heading that says "Welcome to my site".
 4. Add a <nav> tag below the header and create a basic navigation menu with at least two links to other pages.
