@@ -8,42 +8,54 @@
   </head>
   <body>
     <h1>HTML Tables</h1>
-   <div>
-
-     <p>
-       HTML Tables are used to display data in a tabular format, with rows and
-       columns.
-     </p>
-     <p>A table is created using the table element</p>
-     <p>Within the table element you can create rows using the tr element</p>
-     <p>To create columns use the td element</p>
-     <p>You can create table headings by using the th element</p>
-   </div>
-   <div>
-    <h2>Creating a table</h2>
-    <table>
-      <caption>Example Table</caption>
-      <tr>
-        <th>First Name</th>
-        <th>Last Name</th>
-        <th>Job</th>
-      </tr>
-      <tr>
-        <td>Zach</td>
-        <td>Hunn</td>
-        <td>Software</td>
-      </tr>
-      <tr>
-        <td>Brandon</td>
-        <td>Allen</td>
-        <td>Logistics</td>
-      </tr>
-      <tr>
-        <td>Brittany</td>
-        <td>Hudson</td>
-        <td>Teacher</td>
-      </tr>
-    </table>
-   </div>
+    <div>
+      <p>
+        HTML Tables are used to display data in a tabular format, with rows and
+        columns.
+      </p>
+      <p>A table is created using the table element</p>
+      <p>The table head element defines the table header rows</p>
+      <p>
+        The table body is used to group content of the table. It is usually sued
+        to enclose a set of table rows that represent the main data of the
+        table. Although this tag is not strictly required it is considered good
+        practice to use it for better structure and semantic markup.
+      </p>
+      <p>Within the table element you can create rows using the tr element.</p>
+      <p>To create columns use the td element.</p>
+      <p>You can create table headings by using the th element.</p>
+    </div>
+    <div>
+      <h2>Creating a table</h2>
+      <table>
+        <caption>
+          Example Table
+        </caption>
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Job</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Zach</td>
+            <td>Hunn</td>
+            <td>Software</td>
+          </tr>
+          <tr>
+            <td>Brandon</td>
+            <td>Allen</td>
+            <td>Logistics</td>
+          </tr>
+          <tr>
+            <td>Brittany</td>
+            <td>Hudson</td>
+            <td>Teacher</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </body>
 </html>
