@@ -2,11 +2,21 @@
 
 Create a folder within the "exercise" directory named with your first name and the exercise number (e.g. "John-Exercise-1"). Within this folder, create an HTML file named "index.html". In this HTML file, create the following HTML structure:
 
-## Note - you'll see some tags that have not been covered like &lt;header&gt;, &lt;nav&gt;, &lt;section&gt; and &lt;footer&gt;. These are are semantic HTML elemnts
-The Header element is used to define the header section of the webpage
-The Nav element is used to define a section of a web page that contains navagation links. Usually located in the header
-The section element groups related content and is a more speific alternative to a div
-The Footer element is used to define a footer for a docement. It usually contains information such as copyright notices, links to related documents, and contact information.
+## Note - you'll see some tags that have not been covered like &lt;header&gt;, &lt;nav&gt;, &lt;section&gt; and &lt;footer&gt;. These are are semantic HTML elements. Semantic HTML elements that carry meaning and convey the purpose or stucture of the content they wrap. Semantic elements provide descriptive names that enhance the accessibility, maintainability, abd SEO (Search Engine Optimization) of a webpage.
+
+### Common semantic HTML elements
+
+    &lt;header&gt;: Represents the introductory content or a container for a group of introductory content.
+    &lt;nav&gt;: Defines a section of navigation links.
+    &lt;main&gt;: Represents the main content of a document.
+    &lt;article&gt;: Represents a self-contained composition that can be independently distributed or reused.
+    &lt;section&gt;: Defines a standalone section within a document.
+    &lt;aside&gt;: Represents content that is tangentially related to the main content.
+    &lt;footer&gt;: Represents the footer or closing section of a document or a section.
+    &lt;figure&gt; and &lt;figcaption&gt;: Used together to represent self-contained content, such as images or diagrams, with a descriptive caption.
+    &lt;blockquote&gt;: Indicates a section that contains quoted content from another source.
+    &lt;cite&gt;: Represents the title of a work or a reference to a creative work.
+    &lt;time&gt;: Represents a specific date, time, or duration.
 
 1. Inside the HTML file, create a basic HTML structure using the appropriate tags, including the &lt;html&gt;, &lt;head&gt;, and &lt;body&gt; tags.
 2. Inside the &lt;head&gt; tag, add a &lt;title&gt; tag and give your page a title.
@@ -16,4 +26,4 @@ The Footer element is used to define a footer for a docement. It usually contain
 6. Inside the section tag, add a &lt;p&gt; tag with a short paragraph about yourself.
 7. Add another &lt;section&gt; tag and create a heading that says "My Skills".
 8. Inside the section tag, add an unordered list (&lt;ul&gt;) with at least three skills you possess.
-9. Add a &lt;footer&gt; tag at the bottom of the page with your name and the current year. 
+9. Add a &lt;footer&gt; tag at the bottom of the page with your name and the current year.
