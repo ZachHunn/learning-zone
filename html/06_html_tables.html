@@ -4,40 +4,87 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/globalstyle.css">
+    <link rel="stylesheet" href="/styles/globalstyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap"
+      rel="stylesheet"
+    />
     <title>HTML tables</title>
   </head>
   <body class="container">
-      <div class="sidebar">
+    <div class="sidebar">
       <nav>
-        <a href="/html/01_html_structure.html">What is HTML?</a>
-        <a href="/html/02_html_inputs.html">HTML Inputs</a>
-        <a href="/html/03_forms/html_form.html">HTML Forms</a>
-        <a href="/html/04_html_list.html">HTML Lists</a>
-        <a href="/html/05_html_media.html">HTML Media</a>
-        <a href="/html/06_html_tables.html">HTML Table</a>
-        <a href="/html/07_html_links.html">HTML Links</a>
+        <header class="nav-header">
+          <a href="#" class="nav-brand">Learning Zone</a>
+        </header>
+        <div class="sidebar-menu">
+          <p>HTML</p>
+          <ul>
+          <li><a href="/html/index.html">What is HTML?</a></li>
+          <li><a href="/html/01_html_structure.html">HTML Structure</a></li>
+          <li><a href="/html/02_html_inputs.html">HTML Inputs</a></li>
+          <li><a href="/html/03_forms/html_form.html">HTML Forms</a></li>
+          <li><a href="/html/04_html_list.html">HTML Lists</a></li>
+          <li><a href="/html/05_html_media.html">HTML Media</a></li>
+          <li><a href="/html/06_html_tables.html">HTML Table</a></li>
+          <li><a href="/html/07_html_links.html">HTML Links</a></li>
+        </ul>
+        </div>
       </nav>
     </div>
     <main class="content">
-
       <h1>HTML Tables</h1>
       <div>
-        <p>
-          HTML Tables are used to display data in a tabular format, with rows and
-          columns.
-        </p>
-        <p>A table is created using the table element</p>
-        <p>The table head element defines the table header rows</p>
-        <p>
-          The table body is used to group content of the table. It is usually sued
-          to enclose a set of table rows that represent the main data of the
-          table. Although this tag is not strictly required it is considered good
-          practice to use it for better structure and semantic markup.
-        </p>
-        <p>Within the table element you can create rows using the tr element.</p>
-        <p>To create columns use the td element.</p>
-        <p>You can create table headings by using the th element.</p>
+        <ul>
+          <li>
+            HTML Tables are used to display data in a tabular format, with rows
+            and columns.
+          </li>
+          <li>
+            A table is created using the table element
+            <ul>
+              <li>&lt;table&gt;&lt;/table&gt;</li>
+            </ul>
+          </li>
+          <li>
+            The table head element defines the table header rows.
+            <ul>
+              <li>&lt;thead&gt;&lt;/thead&gt;</li>
+            </ul>
+          </li>
+          <li>
+            You can create table headings by using the th element.
+            <ul>
+              <li>&lt;th&gt;&lt;/th&gt;</li>
+            </ul>
+          </li>
+          <li>
+            The table body is used to group content of the table. It is usually
+            sued to enclose a set of table rows that represent the main data of
+            the table.
+            <ul>
+              <li>&lt;tbody&gt;&lt;/tbody&gt;</li>
+              <li>
+                Although this tag is not strictly required it is considered good
+                practice to use it for better structure and semantic markup.
+              </li>
+            </ul>
+          </li>
+          <li>
+            Within the table element you can create rows using the tr element.
+            <ul>
+              <li>&lt;tr&gt;&lt;/tr&gt;</li>
+            </ul>
+          </li>
+          <li>
+            To create columns use the td element.
+            <ul>
+              <li>&lt;table&gt;&lt;/table&gt;</li>
+            </ul>
+          </li>
+        </ul>
       </div>
       <div>
         <h2>Creating a table</h2>

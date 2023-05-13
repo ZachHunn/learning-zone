@@ -1,64 +1,127 @@
 <!DOCTYPE html>
-<!-- Doctype declaration tells the broswer that this file is an HTML5 document-->
-<html lang="en">
 
-  <!-- The HTML tag serves as the container of the rest of the HTML Elements.
-It has two main sections: head and body elements
--->
+<html lang="en">
   <head>
-    <!-- the head element contains information about the website that is not displayed on the webpage
-  such as page titles, external files, and metadata
--->
     <meta charset="UTF-8" />
-    <!-- meta tags are used by web broswers, search engines, and other web services to better understand 
-  and process the content of an HTML document. They can impact on how they document is displayed, indexed, and ranked by search engines
-  -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/globalstyle.css">
+    <link rel="stylesheet" href="/styles/globalstyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap"
+      rel="stylesheet"
+    />
     <title>HTML Stucture</title>
-    <!-- This specifies the title the HTML document -->
   </head>
-  <!-- This <body> is an opening tag. This identifies the type of HTML element that is being defined -->
+
   <body class="container">
     <div class="sidebar">
       <nav>
-        <a href="/html/01_html_structure.html">What is HTML?</a>
-        <a href="/html/02_html_inputs.html">HTML Inputs</a>
-        <a href="/html/03_forms/html_form.html">HTML Forms</a>
-        <a href="/html/04_html_list.html">HTML Lists</a>
-        <a href="/html/05_html_media.html">HTML Media</a>
-        <a href="/html/06_html_tables.html">HTML Table</a>
-        <a href="/html/07_html_links.html">HTML Links</a>
+        <header class="nav-header">
+          <a href="#" class="nav-brand">Learning Zone</a>
+        </header>
+        <div class="sidebar-menu">
+          <p>HTML</p>
+          <ul>
+            <li><a href="/html/index.html">What is HTML?</a></li>
+            <li><a href="/html/01_html_structure.html">HTML Structure</a></li>
+            <li><a href="/html/02_html_inputs.html">HTML Inputs</a></li>
+            <li><a href="/html/03_forms/html_form.html">HTML Forms</a></li>
+            <li><a href="/html/04_html_list.html">HTML Lists</a></li>
+            <li><a href="/html/05_html_media.html">HTML Media</a></li>
+            <li><a href="/html/06_html_tables.html">HTML Table</a></li>
+            <li><a href="/html/07_html_links.html">HTML Links</a></li>
+          </ul>
+        </div>
       </nav>
     </div>
-    <!-- The body element contains the content of the webpage that is displayed to the users such as text and images-->
 
-    <!-- Div element is used to group elements together for styling and functionality-->
     <main class="content">
-      <!-- Heading elements are used tp define headings and subheadings on a webpage.
-        The purpose is to provide a hierarchiral structure to the content to make it easier for humans and machinces to read
-      -->
-      <h1>This is a H1</h1>
-      <h2>This is a H2</h2>
-      <h3>This is a H3</h3>
-      <h4>This is a H4</h4>
-      <h5>This is a H5</h5>
-      <h6>This is a H6</h6>
-
-      <!-- paragraph elements are used to create paragraphs of text. The purpose is to group a block of text that
-        represents a single concept.
-      -->
-      <p>This is a paragraph</p>
-      <!-- span element is like a div for inline text. This is uesed to group inline text or other inline elements for
-      styling purposes
-      -->
-      <p>
-        In this paragrapgh there is a
-        <span style="color: red">span element</span>
-      </p>
+      <h1>HTML Document Structure</h1>
+      <section>
+        <h2>Document Type Declaration (DOCTYPE) - &lt;!DOCTYPE&gt;</h2>
+        <p>
+          Doctype declaration tells the broswer that this file is an HTML5
+          document
+        </p>
+      </section>
+      <section>
+        <h2>HTML Element - &lt;html&gt;</h2>
+        <p>
+          The HTML element serves as the container of the rest of the HTML
+          Elements. It has two main sections: head and body elements
+        </p>
+      </section>
+      <section>
+        <h2>Head Element - &lt;head&gt;</h2>
+        <p>
+          the head element contains information about the website that is not
+          displayed on the webpage such as page titles, external files, and
+          metadata
+        </p>
+      </section>
+      <section>
+        <h2>META Element - &lt;meta&gt;</h2>
+        <p>
+          Meta elements are used by web broswers, search engines, and other web
+          services to better understand and process the content of an HTML
+          document. They can impact on how they document is displayed, indexed,
+          and ranked by search engines
+        </p>
+      </section>
+      <section>
+        <h2>Title Element - &lt;title&gt;</h2>
+        <p>The title element specifies the title the HTML document</p>
+      </section>
+      <section>
+        <h2>Body Element - &lt;body&gt;</h2>
+        <p>
+          The body element contains the content of the webpage that is displayed
+          to the users such as text and images
+        </p>
+      </section>
+      <section>
+        <h2>Div Element - &lt;div&gt;</h2>
+        <p>
+          The div element is used to group elements together for styling and
+          functionality
+        </p>
+      </section>
+      <section>
+        <h2>The Heading Elements - &lt;h1&gt; - &lt;h6&gt;</h2>
+        <p>
+          The heading elements are used tp define headings and subheadings on a
+          webpage. The purpose is to provide a hierarchiral structure to the
+          content to make it easier for humans and machinces to read
+        </p>
+        <ul>
+          <li><h1>This is a H1</h1></li>
+          <li><h2>This is a H2</h2></li>
+          <li><h3>This is a H3</h3></li>
+          <li><h4>This is a H4</h4></li>
+          <li><h5>This is a H5</h5></li>
+          <li><h6>This is a H6</h6></li>
+        </ul>
+      </section>
+      <section>
+        <h2>Paragraph Element - &lt;p&gt;</h2>
+        <p>
+          The Paragraph element is used to create paragraphs of text. The
+          purpose is to group a block of text that represents a single concept.
+        </p>
+      </section>
+      <section>
+        <h2>Span Element - &lt;span&gt;</h2>
+        <p>
+          The span element is like a div for inline text. This is uesed to group
+          inline text or other inline elements for styling purposes
+        </p>
+        <p>
+          In this paragrapgh there is a
+          <span style="color: red">span element</span>
+        </p>
+      </section>
     </main>
-    <!-- This <body> is a closing tag. This makes the end of an element. Together opening and closing tags define the boundries of an HTML element and any conent that falls within it -->
   </body>
 </html>
-<!-- You'll see later on that not all HTML elements require closing tags. Meaning they are self closing tags like the <meta/> tag -->
