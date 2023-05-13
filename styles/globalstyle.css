@@ -1,5 +1,14 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+}
+
 /* Mobile View */
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .container {
     flex-direction: column;
   }
@@ -16,6 +25,7 @@
     width: 100%;
     flex: 1;
     min-width: 0;
+    margin-left: 0;
   }
 
   .nav-header {
@@ -30,16 +40,9 @@
 
 
 /* Desktop View */
-
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  font-family: "Barlow Condensed", sans-serif;
-  font-size: 20px;
+@media screen and (min-width: 801px) {
+  
 }
-
 .container {
   min-height: 0;
   height: 100%;
@@ -96,8 +99,8 @@ body {
   padding: 20px;
   width: 60%;
   padding-bottom: 30px;
-  border: 10px solid green;
   flex: 1;
   min-height: 0;
 }
+
 
