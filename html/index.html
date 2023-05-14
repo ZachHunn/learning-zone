@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/globalstyle.css" />
+    <link rel="stylesheet" href="../styles/html_lessons_styles/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,7 +19,9 @@
     <div class="sidebar">
       <nav>
         <header class="nav-header">
-          <a href="#" class="nav-brand">Learning Zone</a>
+          <a href="https://zachhunn.github.io/learning-zone/" class="nav-brand"
+            >Learning Zone</a
+          >
         </header>
         <div class="sidebar-menu">
           <p>HTML</p>
@@ -32,90 +35,117 @@
             <li><a href="../html/06_html_tables.html">HTML Table</a></li>
             <li><a href="../html/07_html_links.html">HTML Links</a></li>
           </ul>
+          <p>CSS</p>
         </div>
       </nav>
     </div>
     <main class="content">
-      <h1>HTML - Hypertext Markup Language</h1>
-      <section>
-        <h2>What is HTML?</h2>
-        <ul>
-          <li>
-            HTML or Hypertext Markup Lanaguage is the standard markup language
-            for creating and structuring web pages and applications.
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2>HTML Document</h2>
-        <ul>
-          <li>
-            The HTML document serves as the foundation for creating web pages
-            and applications. It is a text file written in HTML markup language
-            that contains the structure, content, and presentation instructions
-            for a web document.
-          </li>
-          <li>
-            The HTML document is responsible for defining the elements, layout,
-            and formatting of the content to be displayed in a web browser.
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2>HTML Elements and Tags</h2>
-        <h3>HTML Element</h3>
-        <p>
-          An HTML element represents a specific type of content within an HTML
-          document. It defines the structure and semantics of that content. An
-          HTML element consists of an opening tag, optional content, and a
-          closing tag (in most cases). The opening tag marks the beginning of
-          the element, the closing tag marks the end, and the content is the
-          actual content or nested elements contained within the element.
-        </p>
-        <h3>HTML Tag</h3>
-        <p>
-          An HTML tag is the markup syntax used to define and enclose HTML
-          elements within an HTML document.
-        </p>
-        <ul>
-          <li>HTML Tags are enclosed in angle brackets (< >).</li>
-          <li>
-            HTML uses sets of tags and attributes to define the structure and
-            presentation of content on a web page.
-          </li>
-          <li>
-            Most HTML tags have an opening and closing tag.
-            <ul>
-              <li>
-                Opening tag (&lt;div&gt;) - This identifies the type of HTML
-                element that is being defined.
-              </li>
-              <li>
-                Closing tag (&lt;/div&gt;) - This makes the end of an element.
-                Together opening and closing tags define the boundries of an
-                HTML element and any content that falls within it.
-              </li>
-            </ul>
-          </li>
-          <li>
-            Some HTML tags, called self-closing tags or void elements, do not
-            have a closing tag and are written in a specific self-closing
-            format, such as the &lt;img/&gt; tag.
-          </li>
-          <li>
-            HTML tags are used to mark up different elements such as headings,
-            paragraphs, links, imagesm tables, forms, and more.
-          </li>
-          <li>
-            An HTML attribute provides additional information or modifies the
-            behavior of an HTML element. Attributes are specified within the
-            opening tag of an HTML element and consist of a name and a value,
-            separated by an equals sign.
-          </li>
-        </ul>
-      </section>
-
-      <div></div>
+      <h1 class="content-heading">HTML - Hypertext Markup Language</h1>
+      <div>
+        <section class="video-container">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/ok-plXXHlWw"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section>
+          <h2>What is HTML?</h2>
+          <ul>
+            <li>
+              HTML or Hypertext Markup Lanaguage is the standard markup language
+              for creating and structuring web pages and applications.
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2>HTML Document</h2>
+          <ul>
+            <li>
+              The HTML document serves as the foundation for creating web pages
+              and applications. It is a text file written in HTML markup
+              language that contains the structure, content, and presentation
+              instructions for a web document.
+            </li>
+            <li>
+              The HTML document is responsible for defining the elements,
+              layout, and formatting of the content to be displayed in a web
+              browser.
+            </li>
+            <li>
+              Once the HTML document is loaded by the browser, it is transformed
+              into a data structure called the Document Object Model (DOM).
+            </li>
+            <li>
+              By leveraging the DOM, developers can dynamically update the web
+              page, respond to user interactions, change styles, add or remove
+              elements, and perform other actions to create interactive and
+              responsive web applications
+            </li>
+            <li>
+              The DOM serves as a powerful interface that bridges the static
+              HTML document and the dynamic capabilities provided by scripting
+              languages like JavaScript. Which will be covered later
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2>HTML Elements and Tags</h2>
+          <h3>HTML Element</h3>
+          <p>
+            An HTML element represents a specific type of content within an HTML
+            document. It defines the structure and semantics of that content. An
+            HTML element consists of an opening tag, optional content, and a
+            closing tag (in most cases). The opening tag marks the beginning of
+            the element, the closing tag marks the end, and the content is the
+            actual content or nested elements contained within the element.
+          </p>
+          <h3>HTML Tag</h3>
+          <p>
+            An HTML tag is the markup syntax used to define and enclose HTML
+            elements within an HTML document.
+          </p>
+          <ul>
+            <li>HTML Tags are enclosed in angle brackets (< >).</li>
+            <li>
+              HTML uses sets of tags and attributes to define the structure and
+              presentation of content on a web page.
+            </li>
+            <li>
+              Most HTML tags have an opening and closing tag.
+              <ul>
+                <li>
+                  Opening tag (&lt;div&gt;) - This identifies the type of HTML
+                  element that is being defined.
+                </li>
+                <li>
+                  Closing tag (&lt;/div&gt;) - This makes the end of an element.
+                  Together opening and closing tags define the boundries of an
+                  HTML element and any content that falls within it.
+                </li>
+              </ul>
+            </li>
+            <li>
+              Some HTML tags, called self-closing tags or void elements, do not
+              have a closing tag and are written in a specific self-closing
+              format, such as the &lt;img/&gt; tag.
+            </li>
+            <li>
+              HTML tags are used to mark up different elements such as headings,
+              paragraphs, links, imagesm tables, forms, and more.
+            </li>
+            <li>
+              An HTML attribute provides additional information or modifies the
+              behavior of an HTML element. Attributes are specified within the
+              opening tag of an HTML element and consist of a name and a value,
+              separated by an equals sign.
+            </li>
+          </ul>
+        </section>
+      </div>
     </main>
   </body>
 </html>

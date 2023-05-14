@@ -17,12 +17,14 @@
     <div class="sidebar">
       <nav>
         <header class="nav-header">
-          <a href="#" class="nav-brand">Learning Zone</a>
+          <a href="https://zachhunn.github.io/learning-zone/" class="nav-brand"
+            >Learning Zone</a
+          >
         </header>
         <div class="sidebar-menu">
           <p>HTML</p>
           <ul>
-       <li><a href="../html/index.html">What is HTML?</a></li>
+            <li><a href="../html/index.html">What is HTML?</a></li>
             <li><a href="../html/01_html_structure.html">HTML Structure</a></li>
             <li><a href="../html/02_html_inputs.html">HTML Inputs</a></li>
             <li><a href="../html/03_forms/html_form.html">HTML Forms</a></li>
@@ -30,93 +32,111 @@
             <li><a href="../html/05_html_media.html">HTML Media</a></li>
             <li><a href="../html/06_html_tables.html">HTML Table</a></li>
             <li><a href="../html/07_html_links.html">HTML Links</a></li>
-        </ul>
+          </ul>
+          <p>CSS</p>
         </div>
       </nav>
     </div>
     <main class="content">
-      <h1>HTML Tables</h1>
+      <h1 class="content-heading">HTML Tables</h1>
+      <p>
+        An HTML table is a structured way to display tabular data on a web page.
+        It consists of rows and columns, forming a grid-like structure.
+      </p>
       <div>
-        <ul>
-          <li>
-            HTML Tables are used to display data in a tabular format, with rows
-            and columns.
-          </li>
-          <li>
-            A table is created using the table element
-            <ul>
-              <li>&lt;table&gt;&lt;/table&gt;</li>
-            </ul>
-          </li>
-          <li>
-            The table head element defines the table header rows.
-            <ul>
-              <li>&lt;thead&gt;&lt;/thead&gt;</li>
-            </ul>
-          </li>
-          <li>
-            You can create table headings by using the th element.
-            <ul>
-              <li>&lt;th&gt;&lt;/th&gt;</li>
-            </ul>
-          </li>
-          <li>
-            The table body is used to group content of the table. It is usually
-            sued to enclose a set of table rows that represent the main data of
-            the table.
-            <ul>
-              <li>&lt;tbody&gt;&lt;/tbody&gt;</li>
-              <li>
-                Although this tag is not strictly required it is considered good
-                practice to use it for better structure and semantic markup.
-              </li>
-            </ul>
-          </li>
-          <li>
-            Within the table element you can create rows using the tr element.
-            <ul>
-              <li>&lt;tr&gt;&lt;/tr&gt;</li>
-            </ul>
-          </li>
-          <li>
-            To create columns use the td element.
-            <ul>
-              <li>&lt;table&gt;&lt;/table&gt;</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h2>Creating a table</h2>
-        <table>
-          <caption>
-            Example Table
-          </caption>
-          <thead>
-            <tr>
-              <th>First Name</th>
-              <th>Last Name</th>
-              <th>Job</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Zach</td>
-              <td>Hunn</td>
-              <td>Software</td>
-            </tr>
-            <tr>
-              <td>Brandon</td>
-              <td>Allen</td>
-              <td>Logistics</td>
-            </tr>
-            <tr>
-              <td>Brittany</td>
-              <td>Hudson</td>
-              <td>Teacher</td>
-            </tr>
-          </tbody>
-        </table>
+        <section class="video-container">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/iDA0kF5lrVk"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section>
+          <ul>
+            <li>
+              HTML Tables are used to display data in a tabular format, with
+              rows and columns.
+            </li>
+            <li>
+              A table is created using the table element
+              <ul>
+                <li>&lt;table&gt;&lt;/table&gt;</li>
+              </ul>
+            </li>
+            <li>
+              The table head element defines the table header rows.
+              <ul>
+                <li>&lt;thead&gt;&lt;/thead&gt;</li>
+              </ul>
+            </li>
+            <li>
+              You can create table headings by using the th element.
+              <ul>
+                <li>&lt;th&gt;&lt;/th&gt;</li>
+              </ul>
+            </li>
+            <li>
+              The table body is used to group content of the table. It is
+              usually sued to enclose a set of table rows that represent the
+              main data of the table.
+              <ul>
+                <li>&lt;tbody&gt;&lt;/tbody&gt;</li>
+                <li>
+                  Although this tag is not strictly required it is considered
+                  good practice to use it for better structure and semantic
+                  markup.
+                </li>
+              </ul>
+            </li>
+            <li>
+              Within the table element you can create rows using the tr element.
+              <ul>
+                <li>&lt;tr&gt;&lt;/tr&gt;</li>
+              </ul>
+            </li>
+            <li>
+              To create columns use the td element.
+              <ul>
+                <li>&lt;table&gt;&lt;/table&gt;</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2>Example Table</h2>
+          <table>
+            <caption>
+              Job Table
+            </caption>
+            <thead>
+              <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Job</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Zach</td>
+                <td>Hunn</td>
+                <td>Software</td>
+              </tr>
+              <tr>
+                <td>Brandon</td>
+                <td>Allen</td>
+                <td>Logistics</td>
+              </tr>
+              <tr>
+                <td>Brittany</td>
+                <td>Hudson</td>
+                <td>Teacher</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
       </div>
     </main>
   </body>

@@ -17,12 +17,14 @@
     <div class="sidebar">
       <nav>
         <header class="nav-header">
-          <a href="#" class="nav-brand">Learning Zone</a>
+          <a href="https://zachhunn.github.io/learning-zone/" class="nav-brand"
+            >Learning Zone</a
+          >
         </header>
-       <div class="sidebar-menu">
+        <div class="sidebar-menu">
           <p>HTML</p>
           <ul>
-           <li><a href="../html/index.html">What is HTML?</a></li>
+            <li><a href="../html/index.html">What is HTML?</a></li>
             <li><a href="../html/01_html_structure.html">HTML Structure</a></li>
             <li><a href="../html/02_html_inputs.html">HTML Inputs</a></li>
             <li><a href="../html/03_forms/html_form.html">HTML Forms</a></li>
@@ -30,109 +32,123 @@
             <li><a href="../html/05_html_media.html">HTML Media</a></li>
             <li><a href="../html/06_html_tables.html">HTML Table</a></li>
             <li><a href="../html/07_html_links.html">HTML Links</a></li>
-        </ul>
+          </ul>
+          <p>CSS</p>
         </div>
       </nav>
     </div>
     <main class="content">
-      <h1>HTML Inputs</h1>
+      <h1 class="content-heading">HTML Inputs</h1>
       <p>
         HTML inputs are elements that enable user interaction and data input on
         a web page. They provide a way for users to enter or select information
         and submit it to a server for processing. Inputs are used in various
         forms, surveys, search bars, and other interactive components.
       </p>
-      <section>
-        <h2>Label Element - &lt;label&gt;&lt;/label&gt;</h2>
-        <p>
-          The label element ia used to associate a label an HTML form element
-          typically an input element.
-        </p>
-      </section>
+      <div>
+        <section class="video-container">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/2O8pkybH6po"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section>
+          <h2>Label Element - &lt;label&gt;&lt;/label&gt;</h2>
+          <p>
+            The label element ia used to associate a label an HTML form element
+            typically an input element.
+          </p>
+        </section>
 
-      <section>
-        <h2>Text Input - &lt;input type="text"/&gt;</h2>
-        <p>Text input allows users to enter free-form text.</p>
-        <label for="name">Text Input:</label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          placeholder="It can have placeholder text"
-        />
-      </section>
-      <section>
-        <h2>Password input - &lt;input type="password"/&gt;</h2>
-        <p>
-          Password input conceals the entered text to provide secure password
-          entry.
-        </p>
-        <label for="password">password: </label>
-        <input
-          type="password"
-          name="password"
-          id="password"
-          placeholder="password goes here"
-        />
-      </section>
+        <section>
+          <h2>Text Input - &lt;input type="text"/&gt;</h2>
+          <p>Text input allows users to enter free-form text.</p>
+          <label for="name">Text Input:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="It can have placeholder text"
+          />
+        </section>
+        <section>
+          <h2>Password input - &lt;input type="password"/&gt;</h2>
+          <p>
+            Password input conceals the entered text to provide secure password
+            entry.
+          </p>
+          <label for="password">password: </label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="password goes here"
+          />
+        </section>
 
-      <section>
-        <h2>Checkbox Input - &lt;input type="checkbox"/&gt;</h2>
-        <p>
-          Checkbox input presents a checkbox that users can select or deselect.
-        </p>
-        <label for="checkbox-true">True: </label>
-        <input type="checkbox" name="checkbox-tru" id="checkbox-true" />
+        <section>
+          <h2>Checkbox Input - &lt;input type="checkbox"/&gt;</h2>
+          <p>
+            Checkbox input presents a checkbox that users can select or
+            deselect.
+          </p>
+          <label for="checkbox-true">True: </label>
+          <input type="checkbox" name="checkbox-tru" id="checkbox-true" />
 
-        <label for="checkbox-false">False: </label>
-        <input type="checkbox" name="checkbox-false" id="checkbox-false" />
-      </section>
+          <label for="checkbox-false">False: </label>
+          <input type="checkbox" name="checkbox-false" id="checkbox-false" />
+        </section>
 
-      <section>
-        <h2>Radio Button Input - &lt;input type="checkbox"/&gt;</h2>
-        <p>
-          Radio button input displays a set of options where users can select
-          only one choice.
-        </p>
-        <label for="radio-yes">Radio for Yes:</label>
-        <input type="radio" name="radio-yes" id="radio-yes" />
+        <section>
+          <h2>Radio Button Input - &lt;input type="checkbox"/&gt;</h2>
+          <p>
+            Radio button input displays a set of options where users can select
+            only one choice.
+          </p>
+          <label for="radio-yes">Radio for Yes:</label>
+          <input type="radio" name="radio-yes" id="radio-yes" />
 
-        <label for="radio-no">Radio for No:</label>
-        <input type="radio" name="radio-no" id="radio-no" />
-      </section>
+          <label for="radio-no">Radio for No:</label>
+          <input type="radio" name="radio-no" id="radio-no" />
+        </section>
 
-      <section>
-        <h2>Select Input - &lt;select&gt;&lt;/select&gt;</h2>
-        <p>
-          Select input creates a dropdown menu with a list of options, and users
-          can select one or multiple choices.
-        </p>
-        <h2>Option Element - &lt;option&gt;&lt;/option&gt;</h2>
-        <p>
-          The option element in HTML is used within a &lt;select&gt; element to
-          define individual options within a dropdown list. It represents an
-          option that users can select from.
-        </p>
-        <label for="select">Select </label>
-        <select name="example" id="select">
-          Select an option
-          <option value="HTML">HTML</option>
-          <option value="CSS">CSS</option>
-          <option value="JavaScript">JavaScript</option>
-        </select>
-      </section>
-      <section>
-        <h2>Input Button - &lt;input type="button" value="Click me/&gt;</h2>
-        <p>
-          Input buttons in HTML are interactive elements that allow users to
-          trigger actions or submit forms within a web page. The &lt;input&gt;
-          element with the type="button" or type="submit" attribute is used to
-          create a button.
-        </p>
+        <section>
+          <h2>Select Input - &lt;select&gt;&lt;/select&gt;</h2>
+          <p>
+            Select input creates a dropdown menu with a list of options, and
+            users can select one or multiple choices.
+          </p>
+          <h2>Option Element - &lt;option&gt;&lt;/option&gt;</h2>
+          <p>
+            The option element in HTML is used within a &lt;select&gt; element
+            to define individual options within a dropdown list. It represents
+            an option that users can select from.
+          </p>
+          <label for="select">Select </label>
+          <select name="example" id="select">
+            Select an option
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+          </select>
+        </section>
+        <section>
+          <h2>Input Button - &lt;input type="button" value="Click me/&gt;</h2>
+          <p>
+            Input buttons in HTML are interactive elements that allow users to
+            trigger actions or submit forms within a web page. The &lt;input&gt;
+            element with the type="button" or type="submit" attribute is used to
+            create a button.
+          </p>
 
-        <input type="button" value="Input" />
-        <input type="submit" value="Sumbit" />
-      </section>
+          <input type="button" value="Input" />
+          <input type="submit" value="Sumbit" />
+        </section>
+      </div>
     </main>
   </body>
 </html>

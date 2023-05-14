@@ -1,0 +1,5 @@
+@media (max-width: 810px) {
+  img, video {
+  width: 100%;
+}
+}
