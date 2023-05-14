@@ -29,4 +29,5 @@ Create a folder within the "exercise" directory named with your first name and t
 7. Add another &lt;section&gt; tag and create a heading that says "My Skills".
 8. Inside the section tag, add an unordered list (&lt;ul&gt;) with at least three skills you possess.
 9. Add a &lt;footer&gt; tag at the bottom of the page with your name and the current year.
-10. When you are ready to submit your exercise, commit and push all the files in your exercise folder, including any files that have been changed, to the Git repository.
+
+When you are ready to submit your exercise, commit and push all the files in your exercise folder, including any files that have been changed, to the Git repository.
