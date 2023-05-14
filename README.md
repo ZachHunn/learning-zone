@@ -20,5 +20,5 @@ If you have any questions or suggestions for this repository, feel free to open 
 ## Get Started
 
 - [Learn HTML](https://zachhunn.github.io/learning-zone/html)
-- [Learn CSS](#)
+- [Learn CSS](https://zachhunn.github.io/learning-zone/css/01_intro_css.html)
 - [Learn JavaScript](#)

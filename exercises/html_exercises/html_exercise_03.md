@@ -43,3 +43,5 @@ Create an HTML page that displays both an ordered list and an unordered list. Th
 ## Bonus
 1. Choose either the ordered list or the unordered list to include the nested list.
 2. Inside the chosen list, create a nested list (&lt;ul&gt; or &lt;ol&gt;)
+
+When you are ready to submit your exercise, commit and push all the files in your exercise folder, including any files that have been changed, to the Git repository.

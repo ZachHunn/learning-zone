@@ -30,3 +30,5 @@ Create an HTML registration form that collects the following information from us
       
       <input type="submit" value="Submit">
     </form>
+
+When you are ready to submit your exercise, commit and push all the files in your exercise folder, including any files that have been changed, to the Git repository.

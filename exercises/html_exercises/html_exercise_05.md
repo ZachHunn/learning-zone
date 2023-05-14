@@ -42,3 +42,5 @@ Create an HTML page that displays a table with some sample data.
 
     </body>
     </html>
+
+When you are ready to submit your exercise, commit and push all the files in your exercise folder, including any files that have been changed, to the Git repository.

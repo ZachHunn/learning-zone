@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/globalstyle.css" />
+    <link rel="stylesheet" href="../styles/html_lessons_styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Intro To CSS</title>
+  </head>
+
+  <body class="container">
+    <div class="sidebar">
+      <nav>
+        <header class="nav-header">
+          <a href="https://zachhunn.github.io/learning-zone/" class="nav-brand"
+            >Learning Zone</a
+          >
+        </header>
+        <div class="sidebar-menu">
+          <p>HTML</p>
+          <ul>
+            <li><a href="../html/index.html">What is HTML?</a></li>
+            <li><a href="../html/01_html_structure.html">HTML Structure</a></li>
+            <li><a href="../html/02_html_inputs.html">HTML Inputs</a></li>
+            <li><a href="../html/03_forms/html_form.html">HTML Forms</a></li>
+            <li><a href="../html/04_html_list.html">HTML Lists</a></li>
+            <li><a href="../html/05_html_media.html">HTML Media</a></li>
+            <li><a href="../html/06_html_tables.html">HTML Table</a></li>
+            <li><a href="../html/07_html_links.html">HTML Links</a></li>
+          </ul>
+          <p>CSS</p>
+          <ul>
+            <li>
+              <a href="../css/01_intro_css.html">Intro to CSS</a>
+              <a href="../css/02_css_colors.html">CSS Colors</a>
+              <a href="../css/03_css_text.html">CSS Text</a>
+              <a href="../css/04_css_boxes.html">CSS Boxes</a>
+              <a href="../css/05_css_forms.html">CSS Forms</a>
+              <a href="../css/06_css_lists.html">CSS Lists</a>
+              <a href="../css/07_css_tables.html">CSS Tables</a>
+              <a href="../css/08_css_images.html">CSS Images</a>
+              <a href="../css/09_css_layouts.html">CSS Layouts</a>
+              <a href="../css/10_psuedo_classes.html">CSS Psuedo Classes</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <main class="content">
+      <h1 class="content-heading">CSS - Cascading Style Sheets</h1>
+      <div>
+        <section class="video-container">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/OEV8gMkCHXQ"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section>
+          <h2>What is CSS?</h2>
+          <ul>
+            <li>
+              CSS, which stands for Cascading Style Sheets, is a language used
+              to describe the presentation and visual style of a web page.
+            </li>
+            <li>
+              It works alongside HTML to define how elements should be displayed
+              on the screen, including their colors, fonts, sizes, positions,
+              and other visual properties.
+            </li>
+            <li>
+              CSS allows web developers to create consistent and visually
+              appealing designs, customize the look of different elements, and
+              ensure a better user experience. It provides flexibility and
+              control over the appearance of web content, helping to create
+              beautiful and engaging websites.
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2>EXternal Vs Internal CSS</h2>
+          <p>
+            CSS can be used with HTML both internally, by embedding the CSS code
+            within the HTML file, and externally, by linking an external CSS
+            file to the HTML document.
+          </p>
+          <h3>Internal CSS</h3>
+          <ul>
+            <li>
+              Styles are written within the &lt;style&gt; tags in the
+              &lt;head&gt; section of the HTML file
+            </li>
+            <li>
+              It keeps the styles within the HTML file itself, suitable for
+              small-scale or single-page projects.
+            </li>
+            <ul>
+              <h4>Inline CSS</h4>
+              <li>
+                Inline CSS involves directly applying styles to individual HTML
+                elements using the style attribute.
+              </li>
+              <li>
+                It allows for individual styling of specific elements, but can
+                lead to code duplication and reduced maintainability when
+                applied to multiple elements.
+              </li>
+            </ul>
+          </ul>
+
+          <h3>External CSS</h3>
+          <ul>
+            <li>
+              External CSS involves creating a separate CSS file with a .css
+              extension that contains all the CSS code.
+            </li>
+            <li>
+              The CSS file is then linked to the HTML document using the
+              &lt;link&gt; tag within the &lt;head&gt; section.
+            </li>
+            <li>
+              External CSS allows you to keep your CSS code separate from your
+              HTML code. This separation promotes better organization,
+              reusability, and easier maintenance of styles across multiple web
+              pages.
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2>How CSS Works</h2>
+          <ul>
+            <li>
+              CSS works with HTML by applying CSS rules to HTML elements. These
+              rules govern how the content of specified elements should be
+              displayed in a browser.
+            </li>
+            <li>
+              CSS rules cascade or flow from the top of the document to the
+              bottom. When multiple CSS rules target the same element or
+              property, the rule with the highest specificity and the most
+              recent declaration takes precedence.
+            </li>
+            <li>
+              This allows you to define styles at different levels, such as in
+              an external stylesheet, internal stylesheet, or inline style, and
+              have them apply to elements accordingly.
+            </li>
+
+            <li>
+              CSS rules consist of two parts: a selector (red) and a declaration
+              (green).
+            </li>
+          </ul>
+          <pre>
+            <span style="color: red;">h1</span>  {
+              <span style="color: green;">font-size: 28px</span>
+            }
+          </pre>
+          <ul>
+            <li>
+              In CSS, inheritance is a mechanism that automatically passes
+              certain properties from parent elements to their child elements.
+            </li>
+            <li>
+              This means that styles applied to a parent element can be
+              inherited by its children, unless explicitly overridden.
+            </li>
+            <li>
+              It allows for efficient and consistent styling, as you can define
+              styles at higher levels and have them propagate down the document
+              tree to affect multiple elements.
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2>CSS Selectors</h2>
+          <ul>
+            <li>
+              Selectors are used to target specific HTML elements that you want
+              to style.
+            </li>
+            <li>
+              They can be based on element names, classes, IDs, attributes, or
+              other criteria.
+            </li>
+          </ul>
+          <h3>Types of Selectors</h3>
+          <ul>
+            <li>
+              Element selectors: Select elements based on their tag names.
+              <ul>
+                <li>'h1' selects all &lt;h1&gt; tags.</li>
+              </ul>
+            </li>
+            <li>
+              Class selectors: Select elements based on their class attribute.
+              The selector starts with a dot (.) followed by the class name.
+              <ul>
+                <li>
+                  .my-class selects all elements with the class name "my-class".
+                </li>
+              </ul>
+            </li>
+            <li>
+              ID selectors: Select a single element based on its ID attribute.
+              The selector starts with a hash (#) followed by the ID name.
+              <ul>
+                <li>#my-id selects the element with the ID "my-id".</li>
+              </ul>
+            </li>
+            <li>
+              Attribute selectors: Select elements based on their attribute
+              values. They can be used to select elements with specific
+              attribute values or attribute presence.
+              <ul>
+                <li>
+                  [type="submit"] selects elements with the attribute "type" set
+                  to "submit".
+                </li>
+              </ul>
+            </li>
+            <li>
+              Descendant selectors: Select elements based on their hierarchical
+              relationship to other elements.
+              <ul>
+                <li>
+                  div p selects all &lt;p&gt; elements that are descendants of a
+                  &lt;div&gt; element.
+                </li>
+              </ul>
+            </li>
+            <li>
+              Child selectors: Select elements that are direct children of
+              another element. The selector uses the greater-than symbol (>).
+              <ul>
+                <li>
+                  ul > li selects all &lt;li&gt; elements that are direct
+                  children of a &lt;ul&gt; element.
+                </li>
+              </ul>
+            </li>
+            <li>
+              Adjacent sibling selectors: Select the next sibling element that
+              directly follows another element. The selector uses the plus sign
+              (+).
+              <ul>
+                <li>
+                  h2 + p selects the &lt;p&gt; element that directly follows an
+                  &lt;h2&gt; element.
+                </li>
+              </ul>
+            </li>
+            <li>
+              General sibling selectors: Select sibling elements that follow
+              another element. The selector uses the tilde (~).
+              <ul>
+                <li>
+                  h2 ~ p selects all &lt;p&gt; elements that follow an
+                  &lt;h2&gt;element.
+                </li>
+              </ul>
+            </li>
+            <li>
+              Pseudo-classes: Select elements based on their state or position
+              in relation to user interactions or document structure.
+              <ul>
+                <li>:hover selects an element when the user hovers over it.</li>
+              </ul>
+            </li>
+            <li>
+              Pseudo-elements: Select and style a specific part of an element.
+              They are denoted by double colons (::)
+              <ul>
+                <li>::before inserts content before an element.</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

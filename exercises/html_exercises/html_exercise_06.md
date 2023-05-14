@@ -14,3 +14,5 @@ Create an HTML page that includes multiple hyperlinks to different web pages and
 4. Make sure to include a mix of internal links (within the same website) and external links (to other websites).
 5. Apply appropriate formatting and styling to the hyperlinks to make them visually distinguishable from regular text.
 
+When you are ready to submit your exercise, commit and push all the files in your exercise folder, including any files that have been changed, to the Git repository.
+
