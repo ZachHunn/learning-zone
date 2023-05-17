@@ -55,6 +55,10 @@
     </div>
     <main class="content">
       <h1 class="content-heading">Using Colors In CSS</h1>
+      <p>
+        CSS color properties determine the appearance of color-related aspects
+        within an element.
+      </p>
       <div>
         <section class="video-container">
           <iframe
@@ -65,6 +69,81 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
+        </section>
+        <section>
+          <h2>How to specify colors</h2>
+          <ul>
+            <li>
+              Keyword Colors: CSS provides a set of predefined color names like
+              "red," "blue," or "green."
+            </li>
+            <li>
+              Hexadecimal Colors: Colors can be specified using a six-digit
+              hexadecimal code, such as #RRGGBB. Each pair of digits represents
+              the intensity of red (RR), green (GG), and blue (BB) respectively.
+              <ul>
+                <li>#FF0000 represents pure red.</li>
+              </ul>
+            </li>
+            <li>
+              RGBA Colors: RGBA is similar to RGB, but with an additional alpha
+              channel that defines the transparency of the color.
+              <ul>
+                <li>
+                  The alpha value ranges from 0 (fully transparent) to 1 (fully
+                  opaque)
+                </li>
+                <li>rgba(255, 0, 0, 0.5) represents semi-transparent red.</li>
+              </ul>
+            </li>
+            <li>
+              HSL and HSLA Colors: HSL stands for Hue, Saturation, and
+              Lightness. The hue represents the color, saturation controls its
+              intensity, and lightness determines how light or dark it appears.
+              <ul>
+                <li>
+                  HSL colors are defined using the hsl() function, while HSLA
+                  includes an alpha channel for transparency.
+                </li>
+              </ul>
+            </li>
+            <li>System Colors: CSS also supports a set of system colors like "window," "buttonface," or "highlight," which can be used to match the colors of the user's operating system or browser theme.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Color Properties</h2>
+          <p>CSS color properties determine the appearance of color-related aspects within an element. </p>
+          <ul>
+            <li>color: Sets the color of the text content within an element. It affects the color of the text characters.</li>
+            <li>background-color: Sets the background color of an element. It affects the color of the area behind the content, such as the background of a div or the entire page.</li>
+            <li>border-color: Sets the color of the borders of an element. It affects the color of the lines that surround the element.</li>
+            <li>outline-color: Sets the color of the outline around an element. It affects the color of the outline, which is a visual highlight that appears outside the borders of an element.</li>
+            <li>box-shadow: Sets the color of a box shadow. It affects the color of the shadow that appears behind an element, creating a visual effect of depth or elevation.</li>
+            <li>text-shadow: Sets the color of a text shadow. It affects the color of the shadow that appears behind the text characters, adding a visual effect of depth or emphasis.</li>
+            <li>fill: Sets the color used to fill the content of SVG (Scalable Vector Graphics) elements. It affects the color of shapes or paths within an SVG image.</li>
+            <li>stroke: Sets the color used to draw the outlines of SVG elements. It affects the color of the lines that form the edges of shapes or paths within an SVG image.</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Changing Foreground Color Ex:</h2>
+          <pre>
+            h1 {
+              color: rgba(255, 0, 0, 0.5); /* RGBA */
+              color: hsla(0, 100%, 50%, 0.5); /* HSLA */
+              color: red; /* Color Name */
+              color: #FF0000; /* Hexadecimal */
+            }
+          </pre>
+          <h2>Chaning Background Color Ex:</h2>
+          <pre>
+            body {
+              background-color: rgba(0, 128, 0, 0.75); /* RGBA */
+              background-color: hsla(120, 100%, 25%, 0.75); /* HSLA */
+              background-color: green; /* Color Name */
+              background-color: #008000; /* Hexadecimal */
+            }
+          </pre>
         </section>
       </div>
     </main>
