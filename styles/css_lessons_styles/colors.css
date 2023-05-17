@@ -1,0 +1,10 @@
+
+@media (max-width: 810px){
+
+  pre {
+    width: 75%;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin: 0 auto;
+  }
+} 
