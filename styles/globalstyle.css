@@ -54,18 +54,48 @@ body {
   }
 
   .nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     text-align: left;
     padding: 0 0 0.5rem 0.5rem;
-    border: 1px dotted green;
+    
+
+  }
+
+  .menu-icon-container {
+    padding-right: 0.5rem;
+    cursor: pointer;
+  }
+
+  .top-bar, .middle-bar, .bottom-bar {
+    width: 35px;
+    height: 4px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  .change .top-bar {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+
+  .change .middle-bar {
+    opacity: 0;
+  }
+
+  .change .bottom-bar {
+    transform: translate(0 -11px) rotate(45deg);
   }
 
   .sidebar-menu {
+    max-height: 50%;
     display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: auto;
     background-color: rgba(241, 241, 241, 1);
+    overflow: auto;
   }
 
   .sidebar-menu p {
@@ -159,6 +189,10 @@ body {
   .nav-header {
     text-align: center;
     padding-top: 20px;
+  }
+
+  .menu-icon-container {
+    display: none;
   }
 
   .content {
