@@ -1,5 +1,3 @@
-Certainly! Here's an exercise for formatting a form:
-
 # Exercise 07: Formatting a Form
 
 Create a folder within the "css_exercise" directory named with your first name and the exercise number (e.g., "John-Exercise-7"). Within this folder, create an HTML file named "index.html" and a CSS file named "style.css". Then complete the exercise.

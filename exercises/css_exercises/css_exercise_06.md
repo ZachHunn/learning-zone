@@ -1,5 +1,3 @@
-Certainly! Here's an updated version of the exercise without the hover effect and with additional instructions related to list decoration:
-
 # Exercise 06: Formatting a List
 
 Create a folder within the "css_exercise" directory named with your first name and the exercise number (e.g., "John-Exercise-5"). Within this folder, create an HTML file named "index.html" and a CSS file named "style.css". Then complete the exercise.
