@@ -35,6 +35,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
+  gap: 10px;
 }
 
 /* Mobile View */
@@ -59,8 +60,6 @@ body {
     align-items: center;
     text-align: left;
     padding: 0 0 0.5rem 0.5rem;
-    
-
   }
 
   .menu-icon-container {
@@ -68,7 +67,9 @@ body {
     cursor: pointer;
   }
 
-  .top-bar, .middle-bar, .bottom-bar {
+  .top-bar,
+  .middle-bar,
+  .bottom-bar {
     width: 35px;
     height: 4px;
     background-color: #333;
@@ -121,7 +122,13 @@ body {
     margin: 0 auto;
     padding: 0.6rem 1rem;
     width: fit-content;
-   padding-bottom: 1.4rem;
+    padding-bottom: 1.4rem;
+  }
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   iframe {

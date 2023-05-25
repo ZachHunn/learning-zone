@@ -56,16 +56,101 @@
     </div>
     <main class="content">
       <h1 class="content-heading">Understanding Layouts</h1>
+      <p>
+        CSS layouts refer to the techniques used to position and arrange
+        elements on a web page. CSS provides several layout models, each with
+        its own approach and set of properties.
+      </p>
       <div>
         <section class="video-container">
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/OEV8gMkCHXQ"
+            src="https://www.youtube.com/embed/uuOXPWCh-6o"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/K74l26pE4YA"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section>
+          <h2>Box Model</h2>
+          <p>
+            The box model is the foundation of CSS layout. It defines how
+            elements are rendered as rectangular boxes, consisting of content,
+            padding, borders, and margins. The properties associated with the
+            box model include width, height, padding, border, and margin.
+          </p>
+        </section>
+        <section>
+          <h2>Normal Flow (Static Positioning)</h2>
+          <p>
+            In the normal flow layout, elements are positioned one after another
+            based on their order in the HTML document flow. This is the default
+            behavior of elements unless modified by other layout techniques.
+            Elements can be vertically aligned using properties like display,
+            float, and clear.
+          </p>
+        </section>
+        <section>
+          <h2>Flexbox</h2>
+          <p>
+            Flexbox is a one-dimensional layout model that provides flexible
+            containers and flexible items. It allows you to align, stack, and
+            distribute elements along a single row or column. The flexbox layout
+            is created using the display: flex; property on a container and a
+            combination of properties like flex-direction, justify-content, and
+            align-items to control the arrangement of items within the
+            container.
+          </p>
+        </section>
+        <section>
+          <h2>Grid</h2>
+          <p>
+            CSS Grid is a two-dimensional layout model that allows you to create
+            grid structures with rows and columns. It provides precise control
+            over the placement and alignment of elements. The grid layout is
+            defined by setting properties on both the container (using display:
+            grid;) and the items within the container. Properties like
+            grid-template-rows, grid-template-columns, and grid-gap are commonly
+            used in grid layouts.
+          </p>
+        </section>
+        <section>
+          <h2>Positioned</h2>
+          <p>
+            Positioned layout allows you to explicitly position elements within
+            their containing block using properties like position, top, bottom,
+            left, and right. It includes techniques such as absolute positioning
+            and fixed positioning. Elements with positioned layout are taken out
+            of the normal document flow and can overlap other elements.
+          </p>
+        </section>
+        <section>
+          <h2>Responsive</h2>
+          <p>
+            Responsive layouts aim to create designs that adapt to different
+            screen sizes and devices. Techniques like media queries, flexible
+            units (em, rem), and viewport-relative units (vw, vh) are used to
+            adjust the layout and styling based on the device's screen width or
+            other conditions.
+          </p>
+        </section>
+        <section>
+          <h2>CSS Grid Frameworks</h2>
+          <p>
+            CSS grid frameworks like Bootstrap and Foundation provide
+            pre-defined grids and CSS classes that simplify the creation of
+            responsive layouts. These frameworks offer ready-made layout
+            components and responsive design patterns.
+          </p>
         </section>
       </div>
     </main>
